@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_name" table="x_mscb3_ocio_imb_r_servicenow_instance" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Development</label>
+            <language>en</language>
+            <name>x_mscb3_ocio_imb_r_servicenow_instance</name>
+            <sequence/>
+            <sys_created_by>MUNGIM_A</sys_created_by>
+            <sys_created_on>2018-09-06 18:30:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3c919547db1ce308d4a496c4db9619b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>MUNGIM_A</sys_updated_by>
+            <sys_updated_on>2018-09-06 18:30:12</sys_updated_on>
+            <value>dev</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Product</label>
+            <language>en</language>
+            <name>x_mscb3_ocio_imb_r_servicenow_instance</name>
+            <sequence/>
+            <sys_created_by>MUNGIM_A</sys_created_by>
+            <sys_created_on>2018-09-06 18:34:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ed721187db1ce308d4a496c4db96194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>MUNGIM_A</sys_updated_by>
+            <sys_updated_on>2018-09-06 18:34:04</sys_updated_on>
+            <value>product</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sandbox</label>
+            <language>en</language>
+            <name>x_mscb3_ocio_imb_r_servicenow_instance</name>
+            <sequence/>
+            <sys_created_by>MUNGIM_A</sys_created_by>
+            <sys_created_on>2018-09-06 18:33:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1d621947db1ce308d4a496c4db961993</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>MUNGIM_A</sys_updated_by>
+            <sys_updated_on>2018-09-06 18:33:46</sys_updated_on>
+            <value>sandbox</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SR OM Development</label>
+            <language>en</language>
+            <name>x_mscb3_ocio_imb_r_servicenow_instance</name>
+            <sequence/>
+            <sys_created_by>MUNGIM_A</sys_created_by>
+            <sys_created_on>2018-09-06 18:34:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f982dd47db1ce308d4a496c4db9619b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>MUNGIM_A</sys_updated_by>
+            <sys_updated_on>2018-09-06 18:34:24</sys_updated_on>
+            <value>srdev</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Test</label>
+            <language>en</language>
+            <name>x_mscb3_ocio_imb_r_servicenow_instance</name>
+            <sequence/>
+            <sys_created_by>MUNGIM_A</sys_created_by>
+            <sys_created_on>2018-09-06 18:33:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6842dd47db1ce308d4a496c4db961932</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>MUNGIM_A</sys_updated_by>
+            <sys_updated_on>2018-09-06 18:33:09</sys_updated_on>
+            <value>test</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Train</label>
+            <language>en</language>
+            <name>x_mscb3_ocio_imb_r_servicenow_instance</name>
+            <sequence/>
+            <sys_created_by>MUNGIM_A</sys_created_by>
+            <sys_created_on>2018-09-06 18:33:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a4521947db1ce308d4a496c4db961941</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>MUNGIM_A</sys_updated_by>
+            <sys_updated_on>2018-09-06 18:33:25</sys_updated_on>
+            <value>train</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_name</element>
+            <name>x_mscb3_ocio_imb_r_servicenow_instance</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>MUNGIM_A</sys_created_by>
+            <sys_created_on>2018-09-06 18:29:51</sys_created_on>
+            <sys_id>d681dd07db1ce308d4a496c4db9619ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_name</sys_name>
+            <sys_package display_value="OCIO IMB Release Management" source="x_mscb3_ocio_imb_r">618dec03dbd8e308d4a496c4db961989</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="OCIO IMB Release Management">618dec03dbd8e308d4a496c4db961989</sys_scope>
+            <sys_update_name>sys_choice_x_mscb3_ocio_imb_r_servicenow_instance_u_name</sys_update_name>
+            <sys_updated_by>MUNGIM_A</sys_updated_by>
+            <sys_updated_on>2018-09-06 18:29:51</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

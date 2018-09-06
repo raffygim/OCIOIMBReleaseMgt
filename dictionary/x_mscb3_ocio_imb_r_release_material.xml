@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Release Material" max_length="40" name="x_mscb3_ocio_imb_r_release_material" type="collection">
+        <element label="Folder Name" max_length="1024" name="u_folder_name" type="string"/>
+        <element label="Name" max_length="1024" name="u_name" type="string"/>
+        <element label="Notes" max_length="8000" name="u_notes" type="html"/>
+        <element label="Project" max_length="32" name="u_project" reference="x_mscb3_ocio_imb_r_project" type="reference"/>
+        <index name="index">
+            <element name="u_project"/>
+        </index>
+    </element>
+</database>

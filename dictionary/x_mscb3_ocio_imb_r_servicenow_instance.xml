@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="ServiceNow Instance" max_length="40" name="x_mscb3_ocio_imb_r_servicenow_instance" type="collection">
+        <element label="MID Server" max_length="256" name="u_mid_server" type="string"/>
+        <element choice="1" label="Name" max_length="256" name="u_name" type="choice">
+            <choice>
+                <element label="Development" value="dev"/>
+                <element label="Product" value="product"/>
+                <element label="Sandbox" value="sandbox"/>
+                <element label="SR OM Development" value="srdev"/>
+                <element label="Test" value="test"/>
+                <element label="Train" value="train"/>
+            </choice>
+        </element>
+        <element label="Version" max_length="128" name="u_version" type="string"/>
+    </element>
+</database>

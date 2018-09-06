@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="6d225d47db1ce308d4a496c4db961944" sys_domain="global" table="x_mscb3_ocio_imb_r_servicenow_instance" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_name</element>
+            <position>0</position>
+            <sys_created_by>MUNGIM_A</sys_created_by>
+            <sys_created_on>2018-09-06 18:32:32</sys_created_on>
+            <sys_id>e5225d47db1ce308d4a496c4db96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscb3_ocio_imb_r_servicenow_instance" sys_domain="global" view="Default view">6d225d47db1ce308d4a496c4db961944</sys_ui_section>
+            <sys_updated_by>MUNGIM_A</sys_updated_by>
+            <sys_updated_on>2018-09-06 18:32:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_mid_server</element>
+            <position>1</position>
+            <sys_created_by>MUNGIM_A</sys_created_by>
+            <sys_created_on>2018-09-06 18:32:32</sys_created_on>
+            <sys_id>69225d47db1ce308d4a496c4db96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscb3_ocio_imb_r_servicenow_instance" sys_domain="global" view="Default view">6d225d47db1ce308d4a496c4db961944</sys_ui_section>
+            <sys_updated_by>MUNGIM_A</sys_updated_by>
+            <sys_updated_on>2018-09-06 18:32:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_version</element>
+            <position>2</position>
+            <sys_created_by>MUNGIM_A</sys_created_by>
+            <sys_created_on>2018-09-06 18:32:32</sys_created_on>
+            <sys_id>e9225d47db1ce308d4a496c4db96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscb3_ocio_imb_r_servicenow_instance" sys_domain="global" view="Default view">6d225d47db1ce308d4a496c4db961944</sys_ui_section>
+            <sys_updated_by>MUNGIM_A</sys_updated_by>
+            <sys_updated_on>2018-09-06 18:32:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_mscb3_ocio_imb_r_servicenow_instance</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>MUNGIM_A</sys_created_by>
+            <sys_created_on>2018-09-06 18:32:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6d225d47db1ce308d4a496c4db961944</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_mscb3_ocio_imb_r_servicenow_instance</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="OCIO IMB Release Management" source="x_mscb3_ocio_imb_r">618dec03dbd8e308d4a496c4db961989</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="OCIO IMB Release Management">618dec03dbd8e308d4a496c4db961989</sys_scope>
+            <sys_update_name>sys_ui_section_6d225d47db1ce308d4a496c4db961944</sys_update_name>
+            <sys_updated_by>MUNGIM_A</sys_updated_by>
+            <sys_updated_on>2018-09-06 18:32:32</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

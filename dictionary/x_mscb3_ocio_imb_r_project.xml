@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Project" max_length="40" name="x_mscb3_ocio_imb_r_project" type="collection">
+        <element label="End Date" max_length="128" name="u_end_date" type="glide_date"/>
+        <element label="IMB Contact" max_length="32" name="u_imb_contact" reference="sys_user" type="reference"/>
+        <element label="Lead Developer" max_length="32" name="u_lead_developer" reference="sys_user" type="reference"/>
+        <element choice="3" label="Name" max_length="255" name="u_name" type="choice">
+            <choice>
+                <element label="-- New choice --" value="-- New choice --"/>
+                <element hint="Service Request project so called Order Management " label="Service Request" value="SR"/>
+                <element hint="Transition Project including Incident, Problem, Change, Knowledge" label="Transition" value="TRAN"/>
+                <element hint="Enhancement of the Transition project" label="Transition Enhancement" value="TRE"/>
+            </choice>
+        </element>
+        <element label="Project Manager" max_length="32" name="u_project_manager" reference="sys_user" type="reference"/>
+        <element label="Started Date" max_length="128" name="u_started_date" type="glide_date"/>
+        <index name="index">
+            <element name="u_lead_developer"/>
+        </index>
+        <index name="index2">
+            <element name="u_project_manager"/>
+        </index>
+        <index name="index3">
+            <element name="u_imb_contact"/>
+        </index>
+    </element>
+</database>
