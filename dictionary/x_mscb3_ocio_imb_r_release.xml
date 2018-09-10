@@ -2,6 +2,7 @@
 <database>
     <element label="Release" max_length="40" name="x_mscb3_ocio_imb_r_release" type="collection">
         <element default="False" label="Is Cloned" max_length="40" name="u_is_cloned" type="boolean"/>
+        <element label="Notes" max_length="8000" name="u_notes" type="html"/>
         <element label="Released By" max_length="32" name="u_released_by" reference="sys_user" type="reference"/>
         <element label="Released On" max_length="128" name="u_released_on" type="glide_date_time"/>
         <element label="Release Material" max_length="32" name="u_release_material" reference="x_mscb3_ocio_imb_r_release_material" type="reference"/>

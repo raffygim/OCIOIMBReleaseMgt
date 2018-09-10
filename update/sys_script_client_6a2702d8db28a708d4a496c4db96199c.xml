@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Set the Name field value programatically based for which Project the Release material is for so that the Name value is sequentially populated.</description>
+        <field>u_project</field>
+        <global>true</global>
+        <messages/>
+        <name>Set Name</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+
+	//1. Take what Project  a user selected
+	console.log('!!!!Project: ' + newValue);
+	//alert(newValue);
+	// 2. Calcualte the suggested Name value in sequence depending on the Project a user selcted i.e. WD0010 for Transition Project, SR0004 for Service Request project, which may be done by GlideAjax call by checking what the existing records are there to increment the name.
+	var calculatedName = 'WD9999';
+
+	// 3. Set the Name field value on the form
+	g_form.setValue('u_name', calculatedName);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>MUNGIM_A</sys_created_by>
+        <sys_created_on>2018-09-10 19:43:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6a2702d8db28a708d4a496c4db96199c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Set Name</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OCIO IMB Release Management" source="x_mscb3_ocio_imb_r">618dec03dbd8e308d4a496c4db961989</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OCIO IMB Release Management">618dec03dbd8e308d4a496c4db961989</sys_scope>
+        <sys_update_name>sys_script_client_6a2702d8db28a708d4a496c4db96199c</sys_update_name>
+        <sys_updated_by>MUNGIM_A</sys_updated_by>
+        <sys_updated_on>2018-09-10 19:55:24</sys_updated_on>
+        <table>x_mscb3_ocio_imb_r_release_material</table>
+        <type>onChange</type>
+        <ui_type>1</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

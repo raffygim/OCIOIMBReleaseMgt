@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Release Material" max_length="40" name="x_mscb3_ocio_imb_r_release_material" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;    var graAttachCount = new GlideAggregate('sys_attachment');&#13;&#10;&#9;graAttachCount.addQuery('table_sys_id', current.sys_id);&#13;&#10;&#9;graAttachCount.addQuery('table_name', current.getTableName());&#13;&#10;&#9;graAttachCount.addAggregate('COUNT');&#13;&#10;&#9;graAttachCount.query();&#13;&#10;&#9;&#13;&#10;&#9;var numAttachments = 0;&#13;&#10;&#9;if (graAttachCount.next()) {&#13;&#10;&#9;&#9;numAttachments = graAttachCount.getAggregate('COUNT');&#13;&#10;&#9;}&#13;&#10;&#9;return numAttachments;&#13;&#10;&#13;&#10;})(current);" label="Attachments" max_length="40" name="u_attachments" type="integer" virtual="true"/>
         <element label="Folder Name" max_length="1024" name="u_folder_name" type="string"/>
         <element label="Name" max_length="1024" name="u_name" type="string"/>
         <element label="Notes" max_length="8000" name="u_notes" type="html"/>

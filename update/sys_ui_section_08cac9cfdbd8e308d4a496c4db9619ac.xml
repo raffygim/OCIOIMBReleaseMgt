@@ -57,6 +57,34 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>attachments</element>
+            <position>4</position>
+            <sys_created_by>MUNGIM_A</sys_created_by>
+            <sys_created_on>2018-09-10 18:24:47</sys_created_on>
+            <sys_id>0bb6f950db28a708d4a496c4db96190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscb3_ocio_imb_r_release_material" sys_domain="global" view="Default view">08cac9cfdbd8e308d4a496c4db9619ac</sys_ui_section>
+            <sys_updated_by>MUNGIM_A</sys_updated_by>
+            <sys_updated_on>2018-09-10 18:24:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_attachments</element>
+            <position>5</position>
+            <sys_created_by>MUNGIM_A</sys_created_by>
+            <sys_created_on>2018-09-10 18:26:16</sys_created_on>
+            <sys_id>e8177190db28a708d4a496c4db96195c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscb3_ocio_imb_r_release_material" sys_domain="global" view="Default view">08cac9cfdbd8e308d4a496c4db9619ac</sys_ui_section>
+            <sys_updated_by>MUNGIM_A</sys_updated_by>
+            <sys_updated_on>2018-09-10 18:26:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>
