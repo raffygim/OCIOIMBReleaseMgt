@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_prefix" label="Prefix" language="en" table="x_mscb3_ocio_imb_r_project">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_prefix</element>
+            <help/>
+            <hint/>
+            <label>Prefix</label>
+            <language>en</language>
+            <name>x_mscb3_ocio_imb_r_project</name>
+            <plural>Prefixes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>MUNGIM</sys_created_by>
+            <sys_created_on>2018-09-10 22:28:57</sys_created_on>
+            <sys_id>bb9e6614dba8a708d4a496c4db9619af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Prefix</sys_name>
+            <sys_package display_value="OCIO IMB Release Management" source="x_mscb3_ocio_imb_r">618dec03dbd8e308d4a496c4db961989</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="OCIO IMB Release Management">618dec03dbd8e308d4a496c4db961989</sys_scope>
+            <sys_update_name>sys_documentation_x_mscb3_ocio_imb_r_project_u_prefix_en</sys_update_name>
+            <sys_updated_by>MUNGIM</sys_updated_by>
+            <sys_updated_on>2018-09-10 22:28:57</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

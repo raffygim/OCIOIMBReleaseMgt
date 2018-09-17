@@ -12,6 +12,7 @@
                 <element hint="Enhancement of the Transition project" label="Transition Enhancement" value="TRE"/>
             </choice>
         </element>
+        <element label="Prefix" max_length="40" name="u_prefix" type="string"/>
         <element label="Project Manager" max_length="32" name="u_project_manager" reference="sys_user" type="reference"/>
         <element label="Started Date" max_length="128" name="u_started_date" type="glide_date"/>
         <index name="index">

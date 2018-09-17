@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_mscb3_ocio_imb_r.Release_Material_Utils</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>Release_Material_Utils</name>
+        <script><![CDATA[var Release_Material_Utils = Class.create();
+Release_Material_Utils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	getNextNameToSetPerProject: function(){
+		
+		var paramProjectID = this.getParameter('sysparm_project_sys_id');		
+		var nextProjectName = this._getNextAvailableNumberByProject(paramProjectID);
+		
+		var projectObj = {
+			"projectName": nextProjectName,
+		};		
+		
+		return JSON.stringify(projectObj);
+	},
+	
+	_getProjectPrefixById: function(productId) {
+		var projectName = '';
+		var grProject = new GlideRecord("x_mscb3_ocio_imb_r_project");
+		grProject.addQuery('sys_id', productId);
+		grProject.query();
+		if (grProject.next()) {
+			projectName = grProject.getValue('u_prefix');
+		}
+		return projectName;
+	},		
+	
+	_getNextAvailableNumberByProject: function(projectId) {
+		var lastName = '';
+		var nextNumberStr = '';
+		var retVal = '';
+		
+		try {
+			var projectPrefix = this._getProjectPrefixById(projectId);
+
+			var grReleaseMaterial = new GlideRecord("x_mscb3_ocio_imb_r_release_material");
+			grReleaseMaterial.addQuery('u_project', projectId);
+			grReleaseMaterial.query();
+
+			var listProjNames = [];
+			var projName = '';
+			var numberPortion = 0;
+			var count = 1;
+			
+			var totalFound = grReleaseMaterial.getRowCount();
+			
+			if (totalFound == 0) {
+				retVal = projectPrefix + this._formattedName(0);
+			} else {
+
+				while (grReleaseMaterial.next()) {
+					projName = grReleaseMaterial.getValue('u_name');
+					numberPortion  = parseInt(projName.substring(4, projName.length+1));
+					listProjNames.push(numberPortion);
+					count++;
+				}
+
+				var minMaxNumbers = this._findMinMax(listProjNames);
+				var nextNumber = minMaxNumbers[1] + 1;
+                var nextNumberFormatted = this._formattedName(nextNumber);
+
+				retVal = projectPrefix + nextNumberFormatted;
+			}
+			return retVal;
+		} catch(err) {
+			gs.error('>>>!!!_getNextAvailableNumberByProject() at the script include, Release_Material_Utils, Exception: ' +  err);
+			return '';
+		}
+	},	
+	
+	_formattedName: function(nextNumber) {
+		
+		var DITGIT_FORMAT = 4;
+		var nextNumberFormatted = String(nextNumber);
+
+		while (nextNumberFormatted.length < (DITGIT_FORMAT || 2)) {
+			nextNumberFormatted = "0" + nextNumberFormatted;
+		}	
+		
+		return nextNumberFormatted;
+	},
+	
+	_findMinMax: function(arr) {
+		var min = arr[0], max = arr[0];
+
+		for (var i = 1, len=arr.length; i < len; i++) {
+			var v = arr[i];
+			min = (v < min) ? v : min;
+			max = (v > max) ? v : max;
+		}
+		
+		return [min, max];
+	},
+
+    type: 'Release_Material_Utils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>MUNGIM</sys_created_by>
+        <sys_created_on>2018-09-14 18:26:17</sys_created_on>
+        <sys_id>ed4d5e65dba86b08d4a496c4db9619cd</sys_id>
+        <sys_mod_count>44</sys_mod_count>
+        <sys_name>Release_Material_Utils</sys_name>
+        <sys_package display_value="OCIO IMB Release Management" source="x_mscb3_ocio_imb_r">618dec03dbd8e308d4a496c4db961989</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="OCIO IMB Release Management">618dec03dbd8e308d4a496c4db961989</sys_scope>
+        <sys_update_name>sys_script_include_ed4d5e65dba86b08d4a496c4db9619cd</sys_update_name>
+        <sys_updated_by>MUNGIM</sys_updated_by>
+        <sys_updated_on>2018-09-17 21:30:45</sys_updated_on>
+    </sys_script_include>
+</record_update>

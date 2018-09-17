@@ -4,84 +4,98 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_released_by</element>
             <position>0</position>
-            <sys_created_by>MUNGIM_A</sys_created_by>
-            <sys_created_on>2018-09-10 18:51:37</sys_created_on>
-            <sys_id>84ec7514db28a708d4a496c4db961917</sys_id>
+            <sys_created_by>MUNGIM</sys_created_by>
+            <sys_created_on>2018-09-11 15:26:44</sys_created_on>
+            <sys_id>6097daecdbe0e74816bd9c78db961954</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_mscb3_ocio_imb_r_release" sys_domain="global" view="Default view">af8ee9c3db5ce308d4a496c4db961987</sys_ui_section>
-            <sys_updated_by>MUNGIM_A</sys_updated_by>
-            <sys_updated_on>2018-09-10 18:51:37</sys_updated_on>
+            <sys_updated_by>MUNGIM</sys_updated_by>
+            <sys_updated_on>2018-09-11 15:26:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_released_on</element>
             <position>1</position>
-            <sys_created_by>MUNGIM_A</sys_created_by>
-            <sys_created_on>2018-09-10 18:51:37</sys_created_on>
-            <sys_id>08ec7514db28a708d4a496c4db961917</sys_id>
+            <sys_created_by>MUNGIM</sys_created_by>
+            <sys_created_on>2018-09-11 15:26:44</sys_created_on>
+            <sys_id>6897daecdbe0e74816bd9c78db961954</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_mscb3_ocio_imb_r_release" sys_domain="global" view="Default view">af8ee9c3db5ce308d4a496c4db961987</sys_ui_section>
-            <sys_updated_by>MUNGIM_A</sys_updated_by>
-            <sys_updated_on>2018-09-10 18:51:37</sys_updated_on>
+            <sys_updated_by>MUNGIM</sys_updated_by>
+            <sys_updated_on>2018-09-11 15:26:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_release_material</element>
+            <position>2</position>
+            <sys_created_by>MUNGIM</sys_created_by>
+            <sys_created_on>2018-09-11 15:26:44</sys_created_on>
+            <sys_id>e897daecdbe0e74816bd9c78db961954</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscb3_ocio_imb_r_release" sys_domain="global" view="Default view">af8ee9c3db5ce308d4a496c4db961987</sys_ui_section>
+            <sys_updated_by>MUNGIM</sys_updated_by>
+            <sys_updated_on>2018-09-11 15:26:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_release_material.u_attachments</element>
-            <position>2</position>
-            <sys_created_by>MUNGIM_A</sys_created_by>
-            <sys_created_on>2018-09-10 18:51:37</sys_created_on>
-            <sys_id>88ec7514db28a708d4a496c4db961917</sys_id>
+            <position>3</position>
+            <sys_created_by>MUNGIM</sys_created_by>
+            <sys_created_on>2018-09-11 15:26:44</sys_created_on>
+            <sys_id>6c97daecdbe0e74816bd9c78db961954</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_mscb3_ocio_imb_r_release" sys_domain="global" view="Default view">af8ee9c3db5ce308d4a496c4db961987</sys_ui_section>
-            <sys_updated_by>MUNGIM_A</sys_updated_by>
-            <sys_updated_on>2018-09-10 18:51:37</sys_updated_on>
+            <sys_updated_by>MUNGIM</sys_updated_by>
+            <sys_updated_on>2018-09-11 15:26:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_snow_intance</element>
-            <position>3</position>
-            <sys_created_by>MUNGIM_A</sys_created_by>
-            <sys_created_on>2018-09-10 18:51:37</sys_created_on>
-            <sys_id>0cec7514db28a708d4a496c4db961917</sys_id>
+            <position>4</position>
+            <sys_created_by>MUNGIM</sys_created_by>
+            <sys_created_on>2018-09-11 15:26:44</sys_created_on>
+            <sys_id>ec97daecdbe0e74816bd9c78db961954</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_mscb3_ocio_imb_r_release" sys_domain="global" view="Default view">af8ee9c3db5ce308d4a496c4db961987</sys_ui_section>
-            <sys_updated_by>MUNGIM_A</sys_updated_by>
-            <sys_updated_on>2018-09-10 18:51:37</sys_updated_on>
+            <sys_updated_by>MUNGIM</sys_updated_by>
+            <sys_updated_on>2018-09-11 15:26:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_is_cloned</element>
-            <position>4</position>
-            <sys_created_by>MUNGIM_A</sys_created_by>
-            <sys_created_on>2018-09-10 18:51:37</sys_created_on>
-            <sys_id>8cec7514db28a708d4a496c4db961917</sys_id>
+            <position>5</position>
+            <sys_created_by>MUNGIM</sys_created_by>
+            <sys_created_on>2018-09-11 15:26:44</sys_created_on>
+            <sys_id>6097daecdbe0e74816bd9c78db961955</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_mscb3_ocio_imb_r_release" sys_domain="global" view="Default view">af8ee9c3db5ce308d4a496c4db961987</sys_ui_section>
-            <sys_updated_by>MUNGIM_A</sys_updated_by>
-            <sys_updated_on>2018-09-10 18:51:37</sys_updated_on>
+            <sys_updated_by>MUNGIM</sys_updated_by>
+            <sys_updated_on>2018-09-11 15:26:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_notes</element>
-            <position>5</position>
-            <sys_created_by>MUNGIM_A</sys_created_by>
-            <sys_created_on>2018-09-10 18:51:37</sys_created_on>
-            <sys_id>00ec7514db28a708d4a496c4db961918</sys_id>
+            <position>6</position>
+            <sys_created_by>MUNGIM</sys_created_by>
+            <sys_created_on>2018-09-11 15:26:44</sys_created_on>
+            <sys_id>e097daecdbe0e74816bd9c78db961955</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_mscb3_ocio_imb_r_release" sys_domain="global" view="Default view">af8ee9c3db5ce308d4a496c4db961987</sys_ui_section>
-            <sys_updated_by>MUNGIM_A</sys_updated_by>
-            <sys_updated_on>2018-09-10 18:51:37</sys_updated_on>
+            <sys_updated_by>MUNGIM</sys_updated_by>
+            <sys_updated_on>2018-09-11 15:26:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
